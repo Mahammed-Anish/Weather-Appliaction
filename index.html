@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+    <!-- to set favicon to webpage -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+    <!-- end of favicon -->
+</head>
+    <body>
+        <div class="weather-container">
+            <h1>Weather Forecast</h1>
+
+            <div class="weather-data" id="weather-data">
+                <div class="search flex">
+                    <input type="text" id="text" placeholder="Enter country name">
+                    <button class="btn" id="btn">Search</button>
+                </div>
+
+                <p class="invalid" id="invalid">City Not Found</p>
+
+                <div class="details" id="details">  
+
+                    <!-- to display date and time -->
+                    <div class="flex datetime">
+                        <div class="flex">
+                            <img src="" class="cal" alt="" width="20px" height="20px">
+                            <p class="date" id="date"></p>
+                        </div>
+                        <div class="flex">
+                            <img src="" class="clock" alt="" width="20px" height="20px">
+                            <p class="time" id="time"></p>
+                        </div>
+                    </div>
+                    <!-- end of display date and time -->
+
+                    <!-- to display city -->
+                    <div class="flex">
+                        <img class="city" src="" alt="" width="20px" height="20px">
+                        <p id="name" class="name"></p>
+                    </div>
+                    <!-- end of display city -->
+                        
+                    <!-- to display temparature -->
+                    <div class="flex">
+                        <img class="temp" src="" alt="" width="20px" height="20px">
+                        <p class="cur_temp" id="cur_temp"></p>
+                    </div>
+                    <!-- end of display temparature-->
+
+                    <!-- to display weather condition -->
+                    <div class="atmosphere">
+                        <img src="" alt="img" width="60px" height="60px" id="main" class="main">
+                        <p class="maincity"></p>
+                    </div>
+                    <!-- end of display weather condition -->
+                        
+                    <!-- to display humidity and wind-speed -->
+                    <div class="htws flex">
+                        <div class="humidity flex">
+                            <img src="" alt="humid" class="humid" width="40px" height="40px">
+                            <p id="humidity"></p>
+                        </div>
+                        <div class="flex">
+                            <img src="" alt="wind-speed" class="wind" width="40px" height="40px">
+                            <p id="wind-speed"></p>
+                        </div>
+                    </div>
+                    <!-- end of display humidity and wind-speed -->
+
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

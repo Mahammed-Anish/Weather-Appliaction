@@ -1,0 +1,186 @@
+<<<<<<< HEAD
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    /* background-image: url('./assets/bg.jpg'); */
+    /* background-size: cover; */
+}
+
+h1 {
+    text-align: center;
+ }
+
+.weather-container {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.weather-data {
+    margin-top: 20px;
+}
+
+.invalid {
+    display: none;
+}
+
+.search input {
+    height: 20px;
+    width: 80%;
+    /* border: none; */
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(219, 231, 252);
+}
+
+.search button {
+    width: 20%;
+    height: 28px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(28, 107, 234);
+}
+
+.time, .date {
+    text-align: center;
+}
+
+.datetime {
+    gap: 20px;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+}
+
+.main {
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    /* display: none; */
+}
+
+.maincity {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.htws {
+    gap: 20px;
+}
+
+#details {
+    display: none;
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    /* background-image: url('./assets/bg.jpg'); */
+    /* background-size: cover; */
+}
+
+h1 {
+    text-align: center;
+ }
+
+.weather-container {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.weather-data {
+    margin-top: 20px;
+}
+
+.invalid {
+    display: none;
+}
+
+.search input {
+    height: 20px;
+    width: 80%;
+    /* border: none; */
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(219, 231, 252);
+}
+
+.search button {
+    width: 20%;
+    height: 28px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(28, 107, 234);
+}
+
+.time, .date {
+    text-align: center;
+}
+
+.datetime {
+    gap: 20px;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+}
+
+.main {
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    /* display: none; */
+}
+
+.maincity {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.htws {
+    gap: 20px;
+}
+
+#details {
+    display: none;
+>>>>>>> f898f49 (added assets folder)
+}
